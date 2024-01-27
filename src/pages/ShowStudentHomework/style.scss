@@ -1,0 +1,35 @@
+.showStudentHomework {
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+
+    .showItemsDiv {
+        width: 90%;
+        min-height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(131, 156, 156);
+        border-radius: 10px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .seeHomework {
+        width: 500px;
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(183, 197, 197);
+        border-radius: 10px;
+        gap: 10px;
+    }
+}

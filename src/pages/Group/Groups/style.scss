@@ -1,0 +1,99 @@
+.myGroupsDiv {
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(108, 158, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+
+    .groupsItemsDiv {
+        width: 80%;
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.438);
+        border-radius: 20px;
+
+        form {
+            width: 80%;
+            min-height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            gap: 5px;
+        }
+
+        input {
+            width: 400px;
+            height: 35px;
+        }
+
+        select {
+            width: 400px;
+            height: 35px;
+        }
+
+        button {
+            width: 400px;
+            height: 35px;
+        }
+    }
+    .forAddedGroups {
+        width: 80%;
+        min-height: 300px;
+        background-color: rgba(255, 255, 255, 0.534);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // border-radius: 20px;
+        gap: 10px;
+        padding: 10px;
+
+        .addedGroupItems {
+            width: 90%;
+            min-height: 30px;
+            background-color: rgb(30, 97, 97);
+            border-radius: 10px;
+        }
+
+        .forDelete {
+            width: 30px;
+            height: 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: rgb(48, 48, 48);
+            color: white;
+            transition: 0.3s;
+        }
+        .forDelete:hover {
+            transition: 0.3s;
+            background-color: red;
+            cursor: pointer;
+        }
+
+        .forPersonal {
+            width: 30px;
+            height: 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 17px;
+            background-color: rgb(69, 83, 146);
+            color: white;
+            transition: 0.3s;
+        }
+        .forPersonal:hover {
+            transition: 0.3s;
+            background-color: rgb(12, 25, 78);
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.seeGroup {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(141, 174, 179);
+    gap: 10px;
+    padding: 15px;
+
+    .forChangeData {
+        width: 90%;
+        min-height: 200px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+
+        h4 {
+            font-family: monospace;
+        }
+
+        form {
+            width: 90%;
+            min-height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            gap: 5px;
+            // background-color: red;
+        }
+
+        input {
+            width: 400px;
+            height: 35px;
+            position: relative;
+            right: 20px;
+        }
+
+        select {
+            width: 400px;
+            height: 35px;
+        }
+
+        .btnN {
+            width: 400px;
+            height: 35px;
+            position: relative;
+            right: 20px;
+        }
+    }
+
+    .seeGroupItems {
+        width: 90%;
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.438);
+        border-radius: 20px;
+        gap: 10px;
+        padding: 10px;
+
+        h4 {
+            font-family: monospace;
+            text-decoration: underline overline 1px solid rgb(255, 255, 255);
+        }
+
+        .seeGrpIt {
+            width: 90%;
+            min-height: 100px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h5 {
+                color: darkblue;
+            }
+            p {
+                color: rgb(12, 12, 51);
+                font-family: monospace;
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.forSelects {
+  width: 500px;
+  min-height: 80px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+  .selectDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    select {
+      width: 200px;
+    }
+  }
+}
+
+.d1 {
+  width: 80%;
+  min-height: 100px;
+  //   background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forButtons {
+  width: 80%;
+  min-height: 80px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+  .add {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(36, 52, 124);
+    color: white;
+    transition: 0.3s;
+  }
+  .add:hover {
+    transition: 0.3s;
+    background-color: rgb(11, 18, 51);
+    cursor: pointer;
+  }
+
+  .seegrades {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(36, 124, 93);
+    color: white;
+    transition: 0.3s;
+  }
+  .seegrades:hover {
+    transition: 0.3s;
+    background-color: rgb(12, 63, 45);
+    cursor: pointer;
+  }
+
+  .seeHomework {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(167, 59, 44);
+    color: white;
+    transition: 0.3s;
+  }
+  .seeHomework:hover {
+    transition: 0.3s;
+    background-color: rgb(101, 28, 18);
+    cursor: pointer;
+  }
+}

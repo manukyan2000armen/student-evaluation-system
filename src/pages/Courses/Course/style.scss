@@ -1,0 +1,123 @@
+.courseDiv {
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(108, 158, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+
+    .addCourse {
+        width: 80%;
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // background-color: red;
+
+        input {
+            width: 500px;
+            height: 35px;
+        }
+
+        button {
+            width: 120px;
+            height: 35px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(14, 14, 77);
+            color: white;
+            font-size: 16px;
+            letter-spacing: 3px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        button:hover {
+            transition: 0.3s;
+            background-color: rgb(17, 17, 134);
+            cursor: pointer;
+        }
+
+        form {
+            width: 80%;
+            min-height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+
+    .forCourses {
+        width: 90%;
+        min-height: 400px;
+        background-color: rgb(192, 210, 212);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+
+        .courseItems {
+            width: 90%;
+            min-height: 30px;
+            background-color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 10px;
+            padding: 8px;
+            transition: 0.3s;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+            .forDeleteDiv {
+                width: 500px;
+                // background-color: red;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                button {
+                    width: 30px;
+                    height: 30px;
+                    border: none;
+                    border-radius: 4px;
+                    background-color: black;
+                    color: white;
+                    font-size: 15px;
+                    transition: 0.3s;
+                }
+                button:hover {
+                    transition: 0.3s;
+                    background-color: rgb(136, 14, 14);
+                    cursor: pointer;
+                }
+            }
+
+            h4 {
+                color: rgb(12, 12, 71);
+                font-family: monospace;
+            }
+
+            .forSeePage {
+                border: none;
+                border-radius: 5px;
+                width: 30px;
+                height: 30px;
+                background-color: rgb(219, 219, 219);
+                font-size: 16px;
+                transition: 0.3s;
+            }
+            .forSeePage:hover {
+                transition: 0.3s;
+                background-color: rgb(180, 180, 180);
+                cursor: pointer;
+            }
+        }
+    }
+}

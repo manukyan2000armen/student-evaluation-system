@@ -1,0 +1,50 @@
+.addHomeworkDiv {
+  width: 65%;
+  min-height: 300px;
+  background-color: rgb(159, 182, 201);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+
+  form {
+    width: 100%;
+    max-width: 750px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    min-height: 160px;
+    resize: none;
+    overflow: auto;
+  }
+
+  button {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(21, 21, 147);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: rgb(68, 68, 127);
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .addHomeworkDiv {
+      width: 90%;
+    }
+  }
+}
